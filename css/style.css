@@ -1,0 +1,141 @@
+/* Global */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    color:gold;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+img.rounded-circle{
+    border: 2px solid gold;
+}
+
+.btn-main , .btn {
+    background-color:gold !important;
+    color: black;
+    font-size: 17px;
+}
+
+.btn-main:hover , .btn:hover{
+    background-color: white !important;
+    border-color: white;
+}
+
+.navbar-toggler-icon{
+    color: gold;
+    font-size: 2rem;
+    padding-top:10px;
+}
+
+.navbar-toggler-icon:hover{
+    color: white;
+}
+
+/* Header */
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    background-color: #110E01;
+}
+
+.hero-post {
+    position: relative;
+}
+
+.hero-post-badges {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+}
+
+.hero-post-content{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.blog-topic {
+    margin: auto;
+    padding: 1%;
+    font-size: 1.5rem ;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: auto;
+    
+}
+
+/* Blog Post */
+.blog-section{
+    background-color: black;
+    color: white;
+}
+
+article.blog-post{
+    background-color:#110E01 ;
+}
+
+.blog-post a, .badge-link a{
+    background-color: gold;
+    color: black;
+    padding: 3px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 4px;;
+}
+
+.blog-post a:hover, .badge-link a:hover{
+    background-color: black;
+    color: white;
+}
+
+.badges a{
+    margin: 5px;;
+}
+
+.social-link{
+    font-size: 36px;
+}
+
+article .social-link{
+    font-size: 17px;
+    margin: 3px;
+}
+
+.badge-link {
+    display:inline-block;
+}
+
+
+/* Footer */
+
+footer {
+    background-color:#110E01 ;
+    color:white;
+}
+
+footer a{
+    font-size: 16px;
+}
